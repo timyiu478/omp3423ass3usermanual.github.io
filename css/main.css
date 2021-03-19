@@ -1,0 +1,124 @@
+body{
+    font-family: cursive;
+}
+
+ol{
+    list-style-type: upper-roman;
+}
+li{
+    margin: 15px;
+    font-size: large;
+}
+
+img{
+    width: 500px;
+    height: 400px;
+}
+
+.camera_img{
+    position: relative; 
+    width: 520px; 
+    height: 420px;
+    object-fit: cover;
+    display: block;
+    margin: auto;
+}
+
+#dog,#playback_img{
+    position: absolute; 
+    width: 291px; 
+    height: 219px; 
+    left: 60px; 
+    top:83px;
+}
+
+#dog_filter{
+    position: absolute; 
+    width: 224px; 
+    height: 163px; 
+    left: 80px; 
+    top:110px;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+}
+
+.circle_border{
+    border: 1px solid black;
+    color:white;
+    background-color: black;
+    padding: 4px;
+    border-radius: 45px;
+}
+
+.button{
+    position: absolute;
+    font-weight: bold;
+    z-index: 2;
+}
+
+#shutterbutton1{
+    top:30px;
+    right:-73px;
+}
+
+.shutterbutton::after{
+    content: " Shutter Button";
+}
+
+#powerswitch1{
+    top:75px;
+    right:-75px;
+}
+
+.powerswitch::after{
+    content: " Power Switch";  
+}
+
+#playbackbutton1{
+    top:167px;
+    right:-88px;
+}
+
+.playbackbutton::after{
+    content: " Playback Button";  
+}
+
+#filterbutton1,#filterbutton2{
+    top:260px;
+    right:-68px;
+}
+
+.filterbutton::after{
+    content: " Filter Button";  
+}
+
+#powerswitch2{
+    top:45px;
+    right:-70px;
+}
+
+#shutterbutton2{
+    top:30px;
+    left:190px;
+}
+
+#playbackbutton2{
+    top:120px;
+    right:-120px;
+}
+
+.btn-circle{
+    position: absolute;
+    padding: 10px 16px; 
+    border-radius: 35px; 
+}
+
+#shutterbutton3{
+    bottom:80px;
+    right:90px;
+}
+
+#playbackbutton3{
+    top:95px;
+    right:-55px;
+}
